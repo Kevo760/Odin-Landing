@@ -1,0 +1,248 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+  
+
+
+/* ------------------------ NAV BAR ----------------------------------------- */
+header {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: .5rem;
+    background-color: #1F2937;
+}
+
+nav {
+    height: 2rem;
+}
+
+header h1 {
+    color: white;
+    margin: .3rem 0;
+    float: left;
+    padding-left: 5rem;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    top: 0;
+    margin: 0;
+    padding-right: 5rem;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+text-decoration: none;
+display: block;
+color: inherit;
+padding: .5rem;
+color: #E5E7EB;
+font-size: 18px;
+}
+
+li a:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+
+
+/* ------------------------ NAV BAR ----------------------------------------- */
+
+/* ------------------------ BODY ----------------------------------------- */
+
+
+body {
+margin-top: 3.3rem;
+margin: 0;
+}
+
+
+/* ------------------------ BODY ----------------------------------------- */
+
+/* ------------------------ SECTION: ABOUT US ----------------------------------------- */
+
+#about-us {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+#about-us h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.disc {
+    width: 600px;
+    padding: 0 4rem 4rem 4rem;
+}
+
+.gtr-image {
+max-width: 600px;
+}
+
+.gtr-image img {
+ width: 100%;
+ height: auto;
+}
+
+
+
+
+/* ------------------------ SECTION: ABOUT US ----------------------------------------- */
+
+/* ------------------------ BUTTON ----------------------------------------- */
+
+button {
+    font-style: bold;
+    padding: .3rem 1.5rem .3rem 1.5rem;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: inherit;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d478a;
+}
+
+/* ------------------------ BUTTON ----------------------------------------- */
+
+/* ------------------------ SECTION: GTR STUFF ----------------------------------------- */
+#gtr-stuff {
+    background-color: #F9FAF8;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.feat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.featured img {
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+    border: 3px solid #3882F6;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.featured {
+padding: 1rem;
+}
+
+.featured p:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ------------------------ SECTION: GTR STUFF ----------------------------------------- */
+
+
+/* ------------------------ SECTION: QUOTE----------------------------------------- */
+
+#quote {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1605906457463-5eb60f753738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.month-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 12rem;
+}
+
+
+
+
+/* ------------------------ SECTION: QUOTE----------------------------------------- */
+
+
+/* ------------------------ SECTION: SIGN UP----------------------------------------- */
+#sign-up {
+    display: block;
+    background-color: #F9FAF8;
+    height: 300px;
+    overflow: hidden;
+}
+
+#sign-up p {
+    margin: 0;
+}
+
+.bottom-sign-up {
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    margin: 5rem auto;
+    color:#F9FAF8;
+    border-radius: .5rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.bottom-sign-text {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+#sign-up button {
+    display: block;
+    border: 2px solid white;
+    float: right;
+    margin: 2.5rem 5rem 0;
+}
+
+/* ------------------------ SECTION: SIGN UP----------------------------------------- */
+
+
+/* ------------------------ FOOTER ----------------------------------------- */
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    overflow: hidden;
+}
+
+footer p {
+    display: block;
+    margin: 2rem;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+/* ------------------------ FOOTER ----------------------------------------- */
